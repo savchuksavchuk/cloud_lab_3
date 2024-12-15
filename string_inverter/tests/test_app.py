@@ -1,4 +1,4 @@
-from string_inverter.app import invert_string
+from app import invert_string
 
 def test_invert_string():
     assert invert_string("hello") == "olleh"
